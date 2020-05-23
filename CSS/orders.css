@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+nav,
+footer #info,
+footer #disclaimer {
+    min-width: 1020px;
+}
+
+body {
+    margin: 0;
+    min-width: 800px;
+}
+
+.column {
+    padding: 20px;
+    width: 340px;
+    float: left;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.orders {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#tables {
+    width: 1020px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.orders th {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255,255, 255);
+    padding: 5px 10px;
+}
+
+
+.orders tr:hover,
+.orders tr:hover a {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+
+#color {
+    margin: 30px 0px 30px 0px;
+    display: table;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+#middle {
+    width: 1020px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.T_header {
+    width: 340px;
+    padding: 0px 20px 0px 20px;
+    float: left;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    width: 90%;
+    margin: 0px auto 0px auto;
+}
+
+#orderDetails {
+    width: 1020px;
+    margin: 0px auto 20px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#orderDetails td{
+    padding: 10px 5px;
+}
+
+#orderDetails td:nth-child(7) {
+    text-align: left;
+    width: 15%;
+}
+
+#orderDetails th{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+}
+
+#orderDetails tr:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
